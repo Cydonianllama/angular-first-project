@@ -1,0 +1,9 @@
+<div class = "actions">
+  i just wanna buggy with you
+  <select name="categories" id="">
+    <option value="select">select</option>
+  </select>
+</div>
+<div *ngFor="let item of items">
+  <app-product-item [item]="item"></app-product-item>
+</div>
