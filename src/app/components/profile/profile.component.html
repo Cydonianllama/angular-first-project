@@ -1,9 +1,15 @@
 <div class = "profile" *ngIf="isAuth; else register" >
-  <h3>name user</h3>
-  <button>actions</button>
+  <a class = "avatar" routerLink='/profile'></a>
+  <div>
+    <p>username</p>
+    <button>actions</button>
+  </div>
 </div>
 
 <!-- grab in -> else register -->
 <ng-template #register>
-  <a routerLink = '/register'>register</a>
+  <div class = "options">
+    <a class="register" routerLink='/register'>register</a>
+    <a class="login" routerLink='/login'>login</a>
+  </div>
 </ng-template>

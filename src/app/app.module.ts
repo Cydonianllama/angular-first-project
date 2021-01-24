@@ -19,6 +19,12 @@ import { HomepageComponent } from './pages/homepage/homepage.component';
 import { Page404Component } from './pages/page404/page404.component';
 import { ProfilePageComponent } from './pages/profile-page/profile-page.component';
 import { RegisterPageComponent } from './pages/register-page/register-page.component';
+import { ProductViewCompleteComponent } from './pages/product-view-complete/product-view-complete.component';
+import { LoginPageComponent } from './pages/login-page/login-page.component';
+import { RegisterFormComponent } from './components/register-form/register-form.component';
+import { FooterComponent } from './views/footer/footer.component';
+import { ChekoutPageComponent } from './pages/chekout-page/chekout-page.component';
+import { SellerProfileComponent } from './pages/seller-profile/seller-profile.component';
 
 @NgModule({
   declarations: [
@@ -35,7 +41,13 @@ import { RegisterPageComponent } from './pages/register-page/register-page.compo
     ProfilePageComponent,
     ShoppingCartComponent,
     ProfileComponent,
-    RegisterPageComponent
+    RegisterPageComponent,
+    ProductViewCompleteComponent,
+    LoginPageComponent,
+    RegisterFormComponent,
+    FooterComponent,
+    ChekoutPageComponent,
+    SellerProfileComponent
   ],
   imports: [
     BrowserModule,

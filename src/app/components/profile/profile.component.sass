@@ -1,6 +1,44 @@
 .profile
-  box-sizing: border-box
-  box-shadow: 10px 9px 86px -15px rgba(0,0,0,0.51)
-  width: 155px
-  height: 10vh
-  background: red
+  display: flex
+  flex-direction: row
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2)
+  padding: 8px
+  gap: 5px
+  div
+    display: flex
+    flex-direction: column
+    p
+      line-height: 1rem
+      font-size: 1rem
+      margin: 0
+  .avatar
+    width: 50px
+    height: 50px
+    border-radius: 50%
+    background: #f5f5f5
+
+
+.options
+  display: flex
+  align-items: center
+  gap: 25px
+  .login
+    text-decoration: none
+    color: white
+    padding: 10px 30px
+    border-radius: 15px
+    background: #5c69da
+    font-size: 1.1rem
+    font-weight: 600
+  .register
+    text-decoration: none
+    font-size: 1.1rem
+    font-weight: 600
+    background: #5c69da10
+    padding: 10px 30px
+    border-radius: 15px
+    color: gray
+    border: 1px solid #e7e7e7
+
+
+
