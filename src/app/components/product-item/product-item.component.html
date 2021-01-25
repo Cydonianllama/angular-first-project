@@ -1,24 +1,19 @@
 <div class = "product-item">
-  <span class = "state-product" *ngIf="item.stateProduct !== 'none' ">{{ item.stateProduct }}</span>
-  <a routerLink = "/product/aparam">{{ item.nameProduct }} <span>+</span> </a>
   <div class = "product-item__image">
 
   </div>
-  <p> {{ item.description }} </p>
+  <a routerLink = "/product/aparam">{{ item.nameProduct }} <span>+</span> </a>
+  <div>
+    display rating
+  </div>
   <div class = "line">
     <div class="product-item__price-container">
       <span class="normal">{{ item.normalPrice }}</span>
       <span class="actual">{{ item.pricePromotional }}</span>
     </div>
-    <div class="wrapper-picker-quantity">
-      <div class="picker-quantity">
-        <input type="number">
-        <div>
-          <button>+</button>
-          <button>-</button>
-        </div>
-      </div>
-    </div>
+
   </div>
+  <button class="btn-buy"> wish list </button>
   <button class = "btn-buy"> add a cart </button>
+  <span class = "state-product" *ngIf="item.stateProduct !== 'none' ">{{ item.stateProduct }}</span>
 </div>

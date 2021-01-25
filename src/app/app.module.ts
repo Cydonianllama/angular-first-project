@@ -25,6 +25,8 @@ import { RegisterFormComponent } from './components/register-form/register-form.
 import { FooterComponent } from './views/footer/footer.component';
 import { ChekoutPageComponent } from './pages/chekout-page/chekout-page.component';
 import { SellerProfileComponent } from './pages/seller-profile/seller-profile.component';
+import { ForgotPassPageComponent } from './pages/forgot-pass-page/forgot-pass-page.component';
+import { FormForgotPassComponent } from './components/form-forgot-pass/form-forgot-pass.component';
 
 @NgModule({
   declarations: [
@@ -47,7 +49,9 @@ import { SellerProfileComponent } from './pages/seller-profile/seller-profile.co
     RegisterFormComponent,
     FooterComponent,
     ChekoutPageComponent,
-    SellerProfileComponent
+    SellerProfileComponent,
+    ForgotPassPageComponent,
+    FormForgotPassComponent
   ],
   imports: [
     BrowserModule,

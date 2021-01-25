@@ -1,9 +1,54 @@
-<div>
+<div class = "container">
   <form action="">
-    <input type="text" placeholder ="username">
-    <input type="password" placeholder = "password">
-    <input type="password" placeholder = "confirm password">
-    <input type="text" placeholder = "fullname">
-    <input type="datetime" placeholder = "birthdate">
+
+    <div>
+      <h3>Personal Data</h3>
+      <div class = "visualizer-avatar">
+
+      </div>
+      <input type="file" placholder="avatar">
+      <input type="text" placeholder="username">
+      <input type="text" placeholder="password">
+      <input type="text" placeholder="confirm password">
+      <input type="text" placeholder="email">
+      <input type="text" placeholder="fullname">
+      <label for="birthdate">birthdate :</label>
+      <input name="birthdate" type="date">
+    </div>
+
+    <div>
+      <h3>Resguard Account</h3>
+      <select name="forgot-pass" id="">
+        <option value="select">select</option>
+        <option value="select">family member</option>
+        <option value="select">key word</option>
+      </select>
+      <input type="text" placeholder="response recovery">
+    </div>
+
+    <input type="search" ><button class="btn-add-category"type="button">add</button>
+    <div class = "categories-container">
+
+    </div>
+
+    <div>
+      <h3>Ubication</h3>
+      <input type="text" placeholder="country">
+      <input type="text" placeholder="direction">
+      <input type="text" placeholder="region">
+      <input type="text" placeholder="district">
+      <input type="text" placeholder="code zip">
+    </div>
+
+    <div>
+      <h3>Authentication Modes</h3>
+      <input type="text" placeholder="number phone">
+      <input type="text" placeholder="code phone">
+      <button class = "btn-confirm-phone" type = "button" >confirm phone</button>
+    </div>
+
+    <button class = "btn-become-seller" type="button">Become a seller</button>
+    <button class = "btn-register" type="submit">Register</button>
+
   </form>
 </div>

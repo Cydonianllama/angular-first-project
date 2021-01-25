@@ -9,6 +9,7 @@ import {ProductViewCompleteComponent} from './pages/product-view-complete/produc
 import {LoginPageComponent} from './pages/login-page/login-page.component'
 import {ChekoutPageComponent} from './pages/chekout-page/chekout-page.component'
 import {SellerProfileComponent} from './pages/seller-profile/seller-profile.component'
+import {ForgotPassPageComponent} from './pages/forgot-pass-page/forgot-pass-page.component'
 
 const routes: Routes = [
   { path: '', redirectTo : '/home',pathMatch : 'full'},
@@ -18,6 +19,7 @@ const routes: Routes = [
   { path: 'login' , component : LoginPageComponent},
   { path: 'checkout' , component : ChekoutPageComponent},
   { path: 'product/:id' , component : ProductViewCompleteComponent},
+  { path: 'forgot' ,component: ForgotPassPageComponent},
   { path: 'seller/:nameseller' , component : SellerProfileComponent},
   { path: '**' , component : Page404Component}
 ];
